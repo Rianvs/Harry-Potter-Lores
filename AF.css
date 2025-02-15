@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background-color: #000000;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: black;
+}
+
+ 
+.logo {
+    margin-left: 40px;
+    width: 90px; 
+    height: auto; 
+}
+
+@font-face{
+    font-family: "Animales";
+    src: url('Animales_Fantastic/Animales_Fantastic.otf');
+} 
+
+h1 {
+    font-family:"Animales";
+    font-size: 3em;
+    font-weight: bold;
+    background-image: linear-gradient(130deg, #FCFAF6, #828486, #363634);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    margin-right: 250px; 
+}
+#Top {
+    background-image: linear-gradient(130deg, #FCFAF6, #828486, #363634);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#Top h2 {
+    display: flex;
+    font-size: 35px;
+    color: #D6904B;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+}
+#Top img {
+    width: 300px;
+    height: auto;
+    transition: transform 0.3s ease;
+    margin-right: 50px;
+    margin-left: 60px;
+}
+#Top img:hover {
+    transform: scale(1.2);
+}
+#Top p {
+    text-align: justify;
+    font-size: 25px;
+    margin-right: 150px;
+    line-height: 35px;
+}
+#Top div {
+    display: flex;
+    justify-content: space-evenly;
+}
+#Duo {
+    background-image: linear-gradient(130deg, #FCFAF6, #828486, #363634);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#Duo h2 {
+    margin-top: 50px;
+    margin: 60px;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+#Duo div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 60px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+}
+#Duo p {
+    line-height: 35px;
+    text-align: justify;
+    font-size: 25px;
+}
+#Duo img {
+    width: 500px;
+    margin-left: 40px;
+    margin-right: 100px;
+    border: #363634 solid 2px;
+    transition: transform 0.3s ease;
+}
+#Duo img:hover {
+    transform: scale(1.1);
+}
+#Mal {
+    background-image: linear-gradient(130deg, #FCFAF6, #828486, #363634);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#Mal h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    margin-bottom: 25px;
+    align-items: center;
+}
+#Mal div {
+    display: flex;
+    margin: 60px;
+    flex-direction: column;
+    align-items: center;
+}
+#Mal p {
+    font-size: 25px;
+    line-height: 35px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+#Mal img {
+    margin: 25px;
+    perspective: 1000px;
+    width: 600px;
+    transition: transform 0.3s ease;
+    border: #363634 solid 2px;
+}
+#Mal img:hover {
+    transform: scale(1.1);
+}
+#Final {
+    background-image: linear-gradient(130deg, #FCFAF6, #828486, #363634);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#Final h2 {
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+}
+#Final p {
+    font-size: 25px;
+    line-height: 35px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+#Final div {
+    margin: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#Final img {
+    width: 250px;
+    border: #363634 solid 2px;
+    transition: transform 0.3s ease;
+}
+#Final img:hover {
+    transform: scale(1.1);
+}
+footer {
+    display: flex;
+    text-align: center;
+    background-image: linear-gradient(130deg, #363634, #828486, #363634);
+    color: black;
+    padding: 20px;
+    width: 100%;
+    flex-direction: column;
+}
+
+.footer-container a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ;
+}
+.footer-container a:hover {
+    color: #FCFAF6;
+}

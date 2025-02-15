@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #222f5b;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #0e1a40;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    margin-left: 25px;
+    width: 100px;
+    height: auto;
+}
+
+@font-face {
+    font-family: "Cinzel";
+    src: url('CinzelDecorative-Regular.otf');
+}
+
+h1 {
+    font-family: "Cinzel";
+    font-size: 6em;
+    font-weight: bold;
+    background-image: linear-gradient(135deg, #d2b085, #b08d57, #cd7f32);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    margin-right: 430px;
+}
+#Top {
+    background-image: linear-gradient(135deg, #d2b085, #b08d57, #cd7f32);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#Top h2 {
+    font-size: 35px;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+}
+#Top div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 40px;
+}
+#Top img {
+    width: 200px;
+    margin-right: 60px;
+    border: #5F615F solid 2px;
+    transition: transform 0.3s ease;
+}
+#Top img:hover {
+    transform: scale(1.1);
+}
+#Top p {
+    text-align: justify;
+    font-size: 25px;
+    line-height: 35px;
+}
+#Sabedoria {
+    background-image: linear-gradient(135deg, #d2b085, #b08d57, #cd7f32);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#Sabedoria h2 {
+    font-size: 35px;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+}
+#Sabedoria div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 40px;
+}
+#Sabedoria img {
+    width: 450px;
+    margin-left: 60px;
+    border: #5F615F solid 2px;
+    transition: transform 0.3s ease;
+}
+#Sabedoria img:hover {
+    transform: scale(1.1);
+}
+#Sabedoria p {
+    text-align: justify;
+    font-size: 25px;
+    line-height: 35px;
+}
+#Rivalidade {
+    background-image: linear-gradient(135deg, #d2b085, #b08d57, #cd7f32);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#Rivalidade h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    align-items: center;
+}
+#Rivalidade div {
+    display: flex;
+    margin: 40px;
+    flex-direction: column;
+    align-items: center;
+}
+#Rivalidade p {
+    font-size: 25px;
+    line-height: 35px;
+    text-align: justify;
+}
+#Rivalidade img {
+    margin: 50px;
+    perspective: 1000px;
+    width: 600px;
+    transition: transform 0.3s ease;
+    transform-style: preserve-3d;
+}
+#Rivalidade img:hover {
+    transform: scale(1.1) rotateY(10deg) rotateX(5deg);
+}
+#Legado {
+    background-image: linear-gradient(135deg, #d2b085, #b08d57, #cd7f32);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#Legado h2 {
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+}
+#Legado p {
+    font-size: 25px;
+    line-height: 35px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+#Legado div {
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#Legado img {
+    width: 200px;
+    height: 200px;
+    border: #5F615F solid 2px;
+    transition: transform 0.3s ease;
+}
+#Legado img:hover {
+    transform: scale(1.1);
+}
+footer {
+    display: flex;
+    text-align: center;
+    background-image: linear-gradient(130deg, #222f5b, #0e1a40, #222f5b);
+    color: black;
+    padding: 20px;
+    width: 100%;
+    flex-direction: column;
+}
+
+.footer-container a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+}
+.footer-container a:hover {
+    color: #ffff;
+}

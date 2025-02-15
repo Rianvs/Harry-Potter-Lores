@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+  background-color: black;
+  overflow-x: hidden;
+}
+
+#Fundo {
+    display: flex;
+    flex-direction: column;
+    background-image: url(casas-de-harry-potter.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    min-height: 95vh; 
+    padding-bottom: 9vh;
+}
+#Fundo div {
+    color: #FFDBA6;
+}
+#Fundo h2 {
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 42px;
+}
+#Fundo p {
+    line-height: 40px;
+    margin-left: 20px;
+    font-size: 27px;
+}
+#Fundo ul {
+    padding-left: 100px;
+    list-style: none;
+    font-size: 50px;
+    margin: 30px;
+}
+#Fundo a {
+    text-decoration: none;
+}
+#Fundo li {
+    margin: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.Grif {
+    color: #d3a625;
+    transition: transform 0.3s ease;
+}
+.Grif:hover {
+    color: #ae0001;
+    transform: scale(1.1);
+}
+.Sly {
+    color: #E0F2F1;
+    transition: transform 0.3s ease;
+}
+.Sly:hover {
+    color: #00695C;
+    transform: scale(1.1);
+}
+.Corv {
+   color: #FFE0B2;
+   transition: transform 0.3s ease;
+}
+.Corv:hover {
+    color: #3949AB;
+    transform: scale(1.1);
+}
+.Lufa {
+    color: #FFE082;
+    transition: transform 0.3s ease;
+}
+.Lufa:hover {
+    color: #6D4C41;
+    transform: scale(1.1);
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    margin-left: 40px;
+    width: 90px; 
+    height: auto; 
+}
+
+@font-face{
+    font-family: "HARRYP";
+    src: url('HARRYP__.TTF');
+} 
+
+h1 {
+    font-family:"HARRYP";
+    font-size: 5em;
+    font-weight: bold;
+    background-image: linear-gradient(130deg, #FFDBA6, #F3E4C7, #D6904B);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    margin-right: 450px;
+}
+footer {
+    margin-top: auto;
+    text-align: center;
+    background-image: linear-gradient(100deg, black, #022222, black);
+    color: white;
+    padding: 20px;
+    bottom: 0;
+    position: static;
+    width: 100%;
+}
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer-container p {
+    margin: 5px 0;
+}
+.footer-container a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ;
+}
+.footer-container a:hover {
+    color: black;
+}
+h3 {
+    font-size: 35px;
+    text-align: center;
+    font-family: "HARRYP";
+    color: white;
+}

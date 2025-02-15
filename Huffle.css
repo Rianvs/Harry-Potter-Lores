@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #0e0e0e; /* Fundo cinza escuro */
+    color: #000000; /* Texto padrão preto */
+    font-family: Arial, sans-serif;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #000000; /* Cabeçalho preto */
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    margin-left: 25px;
+    width: 150px;
+    height: auto;
+}
+
+@font-face {
+    font-family: "Cinzel";
+    src: url('CinzelDecorative-Regular.otf');
+}
+
+h1 {
+    font-family: "Cinzel";
+    font-size: 6em;
+    font-weight: bold;
+    background-image: linear-gradient(135deg, #f7df51, #e3c200); /* Degradê de amarelo */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    margin-right: 430px;
+}
+#Top {
+    background-color: #0e0e0e; /* Fundo cinza escuro */
+}
+#Top h2 {
+    font-size: 35px;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(135deg, #f7df51, #e3c200); /* Degradê de amarelo */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#Top div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 40px;
+}
+#Top img {
+    width: 200px;
+    margin-right: 60px;
+    border: 2px solid #f7df51; /* Borda amarela */
+    transition: transform 0.3s ease;
+}
+#Top img:hover {
+    transform: scale(1.1);
+}
+#Top p {
+    text-align: justify;
+    font-size: 25px;
+    line-height: 35px;
+    color: #f7df51; /* Texto amarelo */
+}
+#Qualidades {
+    background-color: #0e0e0e; /* Fundo cinza escuro */
+}
+#Qualidades h2 {
+    font-size: 35px;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(135deg, #f7df51, #e3c200); /* Degradê de amarelo */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#Qualidades div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 40px;
+}
+#Qualidades img {
+    width: 250px;
+    margin-left: 60px;
+    border: 2px solid #f7df51; /* Borda amarela */
+    transition: transform 0.3s ease;
+}
+#Qualidades img:hover {
+    transform: scale(1.1);
+}
+#Qualidades p {
+    text-align: justify;
+    font-size: 25px;
+    line-height: 35px;
+    color: #f7df51; /* Texto amarelo */
+}
+#Rivalidade {
+    background-color: #0e0e0e; /* Fundo cinza escuro */
+}
+#Rivalidade h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    align-items: center;
+    background-image: linear-gradient(135deg, #f7df51, #e3c200); /* Degradê de amarelo */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#Rivalidade div {
+    display: flex;
+    margin: 40px;
+    flex-direction: column;
+    align-items: center;
+}
+#Rivalidade p {
+    font-size: 25px;
+    line-height: 35px;
+    text-align: justify;
+    color: #f7df51; /* Texto amarelo */
+}
+#Rivalidade img {
+    margin: 50px;
+    perspective: 1000px;
+    width: 600px;
+    transition: transform 0.3s ease;
+    transform-style: preserve-3d;
+    border: 2px solid #f7df51; /* Borda amarela */
+}
+#Rivalidade img:hover {
+    transform: scale(1.1) rotateY(10deg) rotateX(5deg);
+}
+#Legado {
+    background-color: #0e0e0e; /* Fundo cinza escuro */
+}
+#Legado h2 {
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(135deg, #f7df51, #e3c200); /* Degradê de amarelo */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#Legado p {
+    font-size: 25px;
+    line-height: 35px;
+    text-align: justify;
+    margin-bottom: 30px;
+    color: #f7df51; /* Texto amarelo */
+}
+#Legado div {
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#Legado img {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #f7df51; /* Borda amarela */
+    transition: transform 0.3s ease;
+}
+#Legado img:hover {
+    transform: scale(1.1);
+}
+footer {
+    display: flex;
+    text-align: center;
+    background-color: #000000; /* Footer preto */
+    color: white;
+    padding: 20px;
+    width: 100%;
+    flex-direction: column;
+}
+
+.footer-container a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+.footer-container a:hover {
+    color: yellow;
+}
